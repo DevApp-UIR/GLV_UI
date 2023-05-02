@@ -58,8 +58,8 @@ public class Main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        panelGradiente1.setColorPrimario(new java.awt.Color(146, 233, 251));
-        panelGradiente1.setColorSecundario(new java.awt.Color(12, 137, 163));
+        panelGradiente1.setColorPrimario(new java.awt.Color(128, 232, 185));
+        panelGradiente1.setColorSecundario(new java.awt.Color(1, 238, 74));
 
         panelBorder1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -156,10 +156,8 @@ public class Main extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Main().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Main().setVisible(true);
         });
     }
 

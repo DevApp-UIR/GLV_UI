@@ -37,10 +37,10 @@
     <Container class="swing.PanelGradiente" name="panelGradiente1">
       <Properties>
         <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="fb" green="e9" red="92" type="rgb"/>
+          <Color blue="b9" green="e8" red="80" type="rgb"/>
         </Property>
         <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="a3" green="89" red="c" type="rgb"/>
+          <Color blue="4a" green="ee" red="1" type="rgb"/>
         </Property>
       </Properties>
 
